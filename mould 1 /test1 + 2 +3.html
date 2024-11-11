@@ -10,13 +10,19 @@
    console.log("I'm printing to console!")
     let name = prompt('Type your name.')
    let greeting = "welcome," +name
-   document.write(greeting)
+   document.write(greeting+"<br>")
 
    let number1 = parseFloat(prompt("Type first number"))
    let number2 = parseFloat(prompt("Type second number"))
    let number3 = parseFloat(prompt("Type third number"))
-   let total = number1+number2+number3
-   document.write(total)
+   let sum = number1+number2+number3
+    let product = number1*number2*number3
+    let average = (number1+number2+number3)/3
+
+
+   document.write("the sum is " + sum+"<br>")
+   document.write("the product is " + product+"<br>")
+   document.write("the average is " + average+"<br>")
 
  </script>
 

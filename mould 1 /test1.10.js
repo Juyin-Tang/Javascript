@@ -11,7 +11,7 @@ function calculateProbability(numDice, desiredSum) {
     for (let i = 0; i < numSimulations; i++) {
         let sum = 0;
         for (let j = 0; j < numDice; j++) {
-            sum += rollDie(6); // Roll a 6-sided die
+            sum += rollDie(6);
         }
         if (sum === desiredSum) {
             count++;
@@ -26,7 +26,7 @@ function calculateProbability(numDice, desiredSum) {
 let numDice = parseInt(prompt("Enter the number of dice:"), 10);
 let desiredSum = parseInt(prompt("Enter the desired sum of the eye numbers:"), 10);
 
-// Calculate the probability
+
 let probability = calculateProbability(numDice, desiredSum);
 
 // Display the result

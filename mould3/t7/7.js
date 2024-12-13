@@ -6,10 +6,10 @@ const target = document.getElementById('target');
 
 
 trigger.addEventListener('mouseover', () => {
-  target.src = 'picB.jpg'; // Change the image to picB.jpg
+  target.src = 'picB.jpg';
 });
 
 
 trigger.addEventListener('mouseout', () => {
-  target.src = 'picA.jpg'; // Revert to the original image
+  target.src = 'picA.jpg';
 });
